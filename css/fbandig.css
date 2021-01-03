@@ -1,0 +1,67 @@
+.social-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8em;
+    margin-bottom: 2em;
+}
+
+.c-info{
+    width: 40%;
+    display: grid;
+    background-color: #383535;
+    color: #FEB555;
+    font-family: Segoe UI;
+}
+
+.c-info h2{
+    justify-self: center;
+    margin: 2em;
+    text-align: center;
+}
+
+.c-info p{
+    justify-self: center;
+    text-align: center;
+    opacity: .6;
+    margin: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.c-info a{
+    justify-self: center;
+    margin: 2em;
+    margin-bottom: 4em;
+}
+
+.c-info img{
+    width: 7em;
+}
+
+/*///////////////////////media query//////////////////*/
+
+@media screen and (max-width: 1040px) {
+    .social-flex{
+        flex-direction: column;
+        margin-top: 2em;
+    }
+    .c-info{
+        margin-bottom: 2em;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 750px){
+    
+}
+
+@media screen and (max-width: 680px){
+    .c-info h2, .c-info p{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+/*///////////////////////media query end//////////////////*/

@@ -1,0 +1,214 @@
+
+.content{
+    margin-left: 4em;
+    margin-right: 3em;
+    margin-top: 4em;
+}
+
+.img-slider{
+    display: flex;
+}
+
+.is-txt{
+    width: 40%;
+    align-self: center;
+    text-align: justify;
+}
+
+.is-txt h2{
+    font-family: Segoe UI;
+}
+
+.is-txt p{
+    font-family: Poor Richard;
+}
+
+.c-slider{
+    width: 60%;
+    justify-self: flex-end;
+}
+
+
+/*////////////////////Image slider///////////////////////////*/
+
+.slider-frame{
+    overflow: hidden;
+    width: 33em;
+    height: 21em;
+    margin-left: auto;
+    box-shadow: 0 0px 20px grey;;
+    border-radius: 10px;
+}
+
+@-webkit-keyframes slide_animation{
+    0% {left:0em;}
+    10% {left:0em;}
+    20% {left:33em;}
+    30% {left:33em;}
+    40% {left:66em;}
+    50% {left:66em;}
+    60% {left:33em;}
+    70% {left:33em;}
+    80% {left:0em;}
+    90% {left:0em;}
+    100% {left:0em;}
+}
+
+.slide-images{
+    width: 99em;
+    height: 21em;
+    margin: 0 0 0 -66em;
+    position: relative;
+    display: flex;
+    -webkit-animation-name:slide_animation;
+    -webkit-animation-duration:30s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-play-state:running;
+}
+
+.image-container{
+    width: 33em;
+    height: 21em;
+    position: relative;
+    float: left;
+}
+
+.image-container img{
+    width: 33em;
+    height: 21em;
+}
+
+/*////////////////////Image slider end///////////////////////////*/
+
+/*///////////////////////media query//////////////////*/
+
+@media screen and (max-width: 1040px) {
+    .img-slider{
+        flex-direction: column;
+        justify-items: center;
+    }
+    .is-txt{
+        width: 100%;
+    }
+    .c-slider{
+        width: 100%;
+    }
+    .slider-frame{
+        margin-top: 1em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .content{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    
+        /*////////////////////Image slider///////////////////////////*/
+
+        .slider-frame{
+            width: 21em;
+            height: 16em;
+        }
+
+        @-webkit-keyframes slide_animation{
+            0% {left:0em;}
+            10% {left:0em;}
+            20% {left:21em;}
+            30% {left:21em;}
+            40% {left:42em;}
+            50% {left:42em;}
+            60% {left:21em;}
+            70% {left:21em;}
+            80% {left:0em;}
+            90% {left:0em;}
+            100% {left:0em;}
+        }
+
+        .slide-images{
+            width: 21em;
+            height: 16em;
+            margin: 0 0 0 -42em;
+        }
+
+        .image-container{
+            width: 21em;
+            height: 16em;
+        }
+
+        .image-container img{
+            width: 21em;
+            height: 16em;
+        }
+
+        /*////////////////////Image slider end///////////////////////////*/
+}
+
+/*@media screen and (max-width: 400px) {
+    
+        /*////////////////////Image slider///////////////////////////*/
+
+        .slider-frame, .slide-images, .image-container, .image-container img{
+            width: 21em;
+            height: 16em;
+        }
+
+        @-webkit-keyframes slide_animation{
+            0% {left:0em;}
+            10% {left:0em;}
+            20% {left:21em;}
+            30% {left:21em;}
+            40% {left:42em;}
+            50% {left:42em;}
+            60% {left:21em;}
+            70% {left:21em;}
+            80% {left:0em;}
+            90% {left:0em;}
+            100% {left:0em;}
+        }
+
+        .slide-images{
+            margin: 0 0 0 -42em;
+        }
+
+        /*////////////////////Image slider end///////////////////////////*/
+}
+
+@media screen and (max-width: 360px){
+    
+    /*////////////////////Image slider///////////////////////////*/
+
+        .slider-frame, .slide-images, .image-container, .image-container img{
+            width: 12em;
+            height: 9em;
+        }
+
+        @-webkit-keyframes slide_animation{
+            0% {left:0em;}
+            10% {left:0em;}
+            20% {left:12em;}
+            30% {left:12em;}
+            40% {left:24em;}
+            50% {left:24em;}
+            60% {left:12em;}
+            70% {left:12em;}
+            80% {left:0em;}
+            90% {left:0em;}
+            100% {left:0em;}
+        }
+
+        .slide-images{
+            margin: 0 0 0 -24em;
+        }
+
+        /*////////////////////Image slider end///////////////////////////*/
+    
+}*/
+
+/*///////////////////////media query end//////////////////*/
