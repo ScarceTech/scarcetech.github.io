@@ -1,0 +1,47 @@
+.foot-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8em;
+    margin-left: 4em;
+    margin-right: 3em;
+}
+
+.foot-container p{
+    color: #707070;
+    font-family: Segoe UI Symbol;
+}
+
+.fc-right{
+    display: flex;
+    align-content: center;
+}
+
+.blck-box{
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #4B4B4B;
+}
+
+/*///////////////////////media query//////////////////*/
+
+@media screen and (max-width: 1040px) {
+    .foot-container{
+        margin-top: 5em;
+        margin-bottom: 3em;
+        flex-direction: column;
+    }
+    
+    .fc-left{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3em;
+        margin-bottom: 2em;
+    }
+    
+    .fc-right{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*///////////////////////media query end//////////////////*/

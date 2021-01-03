@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="851" height="786" viewBox="0 0 851 786">
+  <defs>
+    <filter id="Path_2" x="0" y="0" width="851" height="786" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_12" x="61" y="344" width="728" height="69" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Enterprise_Software_Development" x="118" y="207" width="296" height="98" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="UX_UI_Design" x="464" y="207" width="226" height="58" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Mobile_App_Development" x="479" y="448" width="208" height="98" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="IT_-_Consulting" x="153" y="448" width="226" height="58" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_7" data-name="Group 7" transform="translate(-1033 -1042)">
+    <g transform="matrix(1, 0, 0, 1, 1033, 1042)" filter="url(#Path_2)">
+      <path id="Path_2-2" data-name="Path 2" d="M350.5,0C544.076,0,701,142.373,701,318S544.076,636,350.5,636,0,493.627,0,318C0,229.133,40.178,148.781,105.124,90.926,168.19,34.745,254.873,0,350.5,0Z" transform="translate(75 55)" fill="#f3f3f3"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1033, 1042)" filter="url(#Rectangle_12)">
+      <g id="Rectangle_12-2" data-name="Rectangle 12" transform="translate(91 369)" fill="#707070" stroke="#707070" stroke-width="1">
+        <rect width="668" height="9" rx="4.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="667" height="8" rx="4" fill="none"/>
+      </g>
+    </g>
+    <g id="Rectangle_13" data-name="Rectangle 13" transform="translate(1453 1107)" fill="#707070" stroke="#707070" stroke-width="1">
+      <rect width="9" height="618" rx="4.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="8" height="617" rx="4" fill="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1033, 1042)" filter="url(#Enterprise_Software_Development)">
+      <text id="Enterprise_Software_Development-2" data-name="Enterprise Software
+Development" transform="translate(266 245)" fill="#707070" font-size="30" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-138.647" y="0">Enterprise Software</tspan><tspan x="-94.775" y="40">Development</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1033, 1042)" filter="url(#UX_UI_Design)">
+      <text id="UX_UI_Design-2" data-name="UX / UI Design" transform="translate(577 245)" fill="#707070" font-size="30" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-103.74" y="0">UX / UI Design</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1033, 1042)" filter="url(#Mobile_App_Development)">
+      <text id="Mobile_App_Development-2" data-name="Mobile App
+Development" transform="translate(583 486)" fill="#707070" font-size="30" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-82.756" y="0">Mobile App</tspan><tspan x="-94.775" y="40">Development</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1033, 1042)" filter="url(#IT_-_Consulting)">
+      <text id="IT_-_Consulting-2" data-name="IT - Consulting" transform="translate(266 486)" fill="#707070" font-size="30" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-103.887" y="0">IT - Consulting</tspan></text>
+    </g>
+  </g>
+</svg>
